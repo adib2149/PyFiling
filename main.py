@@ -8,22 +8,25 @@ if not directory.endswith('/'):
     directory += '/'
 
 #General File Type Extentions
-apps      = ("Applications", ['.exe'])
+apps      = ("Applications", ['.exe','.msi'])
 code      = ("Code", ['.py','.java','.c','.cpp','.rb','.asm','.php','.html',
-             '.css','.js','.lua','.jar','.o','.obj','.bat','.sh'])
+             '.css','.js','.lua','.jar','.o','.obj','.bat','.sh','.json'])
 
 music     = ("Music", ['.mp3','.ogg','.wav'])
 videos    = ("Videos", ['.mp4','.3gp','.avi'])
-pictures  = ("Pictures", ['.jpg','.jpeg','.png','.bmp','.gif'])
+pictures  = ("Pictures", ['.jpg','.jpeg','.png','.bmp','.gif','.webp'])
 archives  = ("Archives", ['.zip','.rar','.7zip','.tar','.iso'])
 
 documents = ("Documents", ['.docx','.doc','.pdf','.txt','.ppt','.pptx','.ppsx','.pptm',
              '.docm','.dotx','.dotm','.docb','.xlsx','.xlsm','.xltx',
              '.xltm','.xlsb','.xla','.xlam','.xll','.xlw',
              '.ACCDB','.ACCDE','.ACCDT','.ACCDR','.pub',
-             '.potx','.potm','.ppam','.ppsm','.sldx','.sldm'])
+             '.potx','.potm','.ppam','.ppsm','.sldx','.sldm','.ttf'])
 
-allTypes = [apps, code, music, videos, pictures, archives, documents]
+apk       = ("Apk", ['.apk'])
+torrent       = ("Torrents", ['.torrent'])
+
+allTypes = [apps, code, music, videos, pictures, archives, documents, apk, torrent]
 
 #Check each file in the directory
 
