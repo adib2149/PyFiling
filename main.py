@@ -10,7 +10,7 @@ if not directory.endswith('/'):
 #General File Type Extentions
 apps      = ("Applications", ['.exe'])
 code      = ("Code", ['.py','.java','.c','.cpp','.rb','.asm','.php','.html',
-             '.css','.js','.lua','.jar','.o','.obj'])
+             '.css','.js','.lua','.jar','.o','.obj','.bat','.sh'])
 
 music     = ("Music", ['.mp3','.ogg','.wav'])
 videos    = ("Videos", ['.mp4','.3gp','.avi'])
